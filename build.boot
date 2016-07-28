@@ -3,7 +3,7 @@
                   [adzerk/boot-test                          "1.1.2"         :scope "test"]
                   ;[org.clojure/core.async                    "0.2.385"]
                   ]
- ; :source-paths #{"src/clj" "test/clj"}
+  :source-paths #{"src/clj" "test/clj"}
   )
 
 (require
@@ -14,4 +14,5 @@
    []
    (comp
      (run-tests :namespaces '#{
+                                triples.core-test
                                  })))
