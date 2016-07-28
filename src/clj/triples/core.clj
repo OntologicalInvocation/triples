@@ -2,4 +2,4 @@
 
 (def x 100)
 
-(defrecord semtriple [:subj :pred :obj])
+(defrecord semtriple [subj pred obj])
