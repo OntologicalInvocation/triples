@@ -5,3 +5,5 @@
 
 (println ::hi! x)
 (println st1)
+(doseq [item st1]
+  (println item))
