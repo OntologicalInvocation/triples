@@ -1,4 +1,7 @@
 (ns triples.core-test
-  (require [triples.core :as core]))
+  (require [triples.core :refer :all]))
 
-(println ::hi! core/x)
+(def st1 (->semtriple 1 2 3))
+
+(println ::hi! x)
+(println st1)
