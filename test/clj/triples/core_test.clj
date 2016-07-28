@@ -1,3 +1,4 @@
-(ns triples.core-test)
+(ns triples.core-test
+  (require [triples.core :as core]))
 
-(println ::hi!)
+(println ::hi! core/x)
