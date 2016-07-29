@@ -15,3 +15,7 @@
 (defmethod print-method semtriple
   [semtriple writer]
   (print-simple (semtriple-str semtriple) writer))
+
+(def s1 (->semtriple :man :isa :mortal))
+(def s2 (->semtriple :Socrates :isa :man))
+
